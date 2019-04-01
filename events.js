@@ -16,7 +16,7 @@ function eventListener() {
         if (this.style.backgroundColor == '') {
             this.style.backgroundColor = couleurs[0];
             this.innerHTML = `${couleurs[n]}`;
-            break;; // Evite de boucler sur toutes les valeurs inutiles.
+            break; // Evite de boucler sur toutes les valeurs inutiles.
         }
 
         // Change la couleur actuelle, par la couleur suivante [Améliorable]
